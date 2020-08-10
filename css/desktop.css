@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.4rem; 
+  color: #181818; 
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+}
+/* 숨김 콘텐츠 */
+.a11y-hidden, legend {
+  position: absolute;/*레이어함*/
+  width: 1px;
+  height: 1px;
+  overflow: hidden;/*넘치는 것 감추기*/
+  margin: -1px;
+  clip-path: polygon(0 0, 0 0, 0 0);
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.container {
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(2, auto);
+}
+.header {
+  background-color: lightcoral;
+  grid-template: 1/1/2/3;
+}
+#PUBG-TM {
+  width: 80px;
+  height: 50px;
+}
+[class$="__item"] {
+  display: inline-block;
+}
+.lang__link, .buy__link {
+  display: none;
+}
+.banner {
+  grid-template: 2/1/3/3;
+}
+.repo {
+  background-color: lightgreen;
+  grid-template: 3/2/4/3;
+}
+.patch-note {
+  background-color: lightyellow;
+}
+.patche-summary {
+  background-color: lightpink;
+  grid-template: 3/1/4/2;
+}
+.console-pc {
+  grid-template: 4/1/5/3;
+}
+.console-patch {
+  background-color: lightblue;
+}
+.pd-patch {
+  background-color: lightseagreen;
+}
+.footer {
+  background-color: deepskyblue;
+  grid-template: 5/1/6/3;
+}
+.footer__logo {
+  width: 75px;
+  height: 70px;
+}

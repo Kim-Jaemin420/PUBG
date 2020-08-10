@@ -1,0 +1,34 @@
+/* header 초기화 */
+h1, h2, h3 {
+  margin: 0;
+}
+/*ul 초기화 */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 앵커 태그 초기화 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* 버튼 초기화 */
+button {
+  border: 0;
+}
+/* dl, dd 초기화 */
+dl, dd {
+  margin: 0;
+  padding: 0;
+}
+/* fieldset 초기화 */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* figure 초기화 */
+figure {
+  margin: 0;
+}
