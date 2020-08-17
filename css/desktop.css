@@ -1,80 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-
-*, *::before, *::after {
-  box-sizing:border-box;
-}
-html {
-  font-size: 10px;
-}
-body {
-  font-size: 1.4rem; 
-  color: #181818; 
-  font-family: 'Teko', sans-serif;
-  font-weight: 400;
-}
-/* 숨김 콘텐츠 */
-.a11y-hidden, legend {
-  position: absolute;/*레이어함*/
-  width: 1px;
-  height: 1px;
-  overflow: hidden;/*넘치는 것 감추기*/
-  margin: -1px;
-  clip-path: polygon(0 0, 0 0, 0 0);
-  clip: rect(0 0 0 0);
-  clip: rect(0, 0, 0, 0);
-}
-/* clearfix */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: block;
-}
-.container {
-  display: grid;
-  grid-template: repeat(5, auto) / repeat(2, auto);
-}
-.header {
-  background-color: lightcoral;
-  grid-template: 1/1/2/3;
-}
-#PUBG-TM {
-  width: 80px;
-  height: 50px;
-}
-[class$="__item"] {
-  display: inline-block;
-}
-.lang__link, .buy__link {
+/* 데스크탑 헤더 */
+.buttonBurger {
   display: none;
 }
+.main-menu {
+  width: 78.5%;
+  max-width: 980px;
+  float: left;
+}
+.header__logo {
+  background-color: #252525;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  height: 80px;
+}
+.header__logo a {
+  display: inline-block;
+  width: 75px;
+}
+.logo-desktop__img {
+  text-align: center;
+  display: block;
+}
+.logo-mobile__img {
+  display: none;
+}
+.main-menu__link {
+  display: inline-block;
+}
+.main-menu__item {
+  float: left;
+}
+.main-menu__item > a {
+  padding: 0 15px;
+  line-height: 80px;
+}
+.side-menu__item {
+  font-size: 20px;
+  line-height: 80px;
+  padding: 0 10px;
+}
+[class$="__link"] {
+  vertical-align: top;
+}
+.side-menu__buy {
+  padding: 20px;
+  color: #fff;
+}
+/* 데스크탑 메인 배너 */
 .banner {
-  grid-template: 2/1/3/3;
+ position: relative;
 }
+.banner__heading, .banner__explain, .banner__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  left: 50%;
+}
+.banner__explain {
+  top: 50%;
+}
+.banner__btn {
+  top: 70%;
+}
+/* 데스크탑 메인 르포 */
 .repo {
-  background-color: lightgreen;
-  grid-template: 3/2/4/3;
+  width: 50%;
+  float: right;
+  
 }
-.patch-note {
-  background-color: lightyellow;
+.repo__heading {
+  margin: 25% 0 60px 0;
 }
+/* 데스크탑 메인 패치 요약 */
 .patche-summary {
-  background-color: lightpink;
-  grid-template: 3/1/4/2;
+  width: 50%;
+  float: left;
+  border-right: 5px solid #fff;
 }
-.console-pc {
-  grid-template: 4/1/5/3;
+.patche__heading {
+  margin: 25% 0 0 0;
+}
+.summary__btn {
+  margin-top: 50px;
+}
+/* 데스크탑 상세 패치 노트 (console, pc)*/
+
+.patch-notes {
+  background: url('/images/patch-section-bg-4b4bd9fba7.jpg') repeat  0 0;
+  background-size: cover;
+  padding-top: 85px;
+  position: relative;
+  width: 100%;
 }
 .console-patch {
-  background-color: lightblue;
+  /* width: 100%; */
+  max-width: 600px;
+  height: auto;
+  float: left;
+  background-color: #fff;
+  margin-top: 25px;
+  margin-left: 25px;
 }
-.pd-patch {
-  background-color: lightseagreen;
+.pc-patch {
+  /* width: 100%; */
+  max-width: 600px;
+  height: auto;
+  float: left;
+  background-color: #fff;
+  margin-top: 25px;
+  margin-left: 25px;
 }
-.footer {
-  background-color: deepskyblue;
-  grid-template: 5/1/6/3;
-}
-.footer__logo {
-  width: 75px;
-  height: 70px;
+.more__btn {
+  
+  margin: 20px 0;
+
+  transform: translateX(-50%);
+  
 }

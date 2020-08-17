@@ -1,0 +1,79 @@
+.logo-mobile__img {
+  width: 70px;
+  height: 40px;
+   
+}
+.header__logo {
+  height: 60px;
+  padding: 10px 20px;
+}
+.logo-desktop__img {
+  display: none;
+}
+.side-menu__link {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+.main-menu__link, .side-menu__buy {
+  display: none;
+}
+.header {
+  height: 60px;
+  position: relative;
+}
+
+.side-menu__link {
+position: absolute;
+top: 0;
+right: 60px;
+}
+.buttonBurger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  padding: 20px 15px;
+}
+.burgerBar {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: #fff;
+}
+.round {
+  border-radius: 10px;
+}
+.positionTop {
+  top: 20px;
+  transform: translateX(50%);
+}
+.positionMiddle {
+  top: 28px;
+  transform: translateX(50%);
+}
+.positionBottom {
+  top: 38px;
+  transform: translateX(50%);
+}
+/* 모바일 메인 배너 */
+.banner {
+  padding-top: 25%;
+}
+/* 모바일 메인 르포 */
+.repo {
+  padding-top: 25%;
+  border-bottom: 5px solid #fff;
+}
+.patche-summary {
+  padding-top: 25%;
+  border-bottom: 5px solid #fff;
+}
+.console-patch {
+  width: 100%;
+}
+.pc-patch {
+  width: 100%;
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.4rem; 
+  /* line-height: 20px; */
+  color: #181818; 
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+}
+/* 숨김 콘텐츠 */
+.a11y-hidden, legend {
+  position: absolute;/*레이어함*/
+  width: 1px;
+  height: 1px;
+  overflow: hidden;/*넘치는 것 감추기*/
+  margin: -1px;
+  clip-path: polygon(0 0, 0 0, 0 0);
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* 모듈화 */
+/* 반응형 디스플레이 */
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+/* 배경색 모듈화 */
+.bg--yellow {
+  background-color: #f2a900;
+}
+.bg--black {
+  background-color: #252525;
+}
+.icon--yellow {
+  stroke: #f2a900;
+}
+/* 글자색 모듈화 */
+.ft--yellow {
+  color: #f2a900;
+}
+.ft--white {
+  color: #fff;
+}
+svg, img {
+  max-width: 100%;
+  height: auto;
+}
+/* 버튼 모듈화 */
+[class$="__btn"] {
+  width: 200px;
+  height: 50px;
+  background-color: #f2a900;
+  color: #fff;
+  font-size: 24px;
+}
+/* heading 모듈화 */
+.heading-ft {
+  font-size: 64px;
+  font-weight: 400;
+}
+/* explain 모듈화 */
+.explain-ft {
+  font-weight: 700;
+  font-size: 20px;
+}
+/* 이미지 크기 설정 */
+.link__img {
+  width: 10px;
+  height: 10px;
+}
+.login__img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;  
+}
+.globe__img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.dropdown__img {
+  width: 10px;
+  height: 10px;
+}
+/* css 시작 */
+/* 공통 헤더 작성 */
+.header {
+  background-color: #161616;
+  color: #adadad;
+  font-size: 20px;
+  height: 80px;
+}
+.side-menu__link {
+  float: right;
+}
+.side-menu__item {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.community__link, .lang__link, .buy__link {
+  display: none;
+}
+/* 공통 메인 배너 */
+.banner {
+  background: url('/images/1-6-1365x768.png') no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  border-bottom: 5px solid #fff;
+  padding: 0 50px;
+}
+/* 공통 메인 르포 */
+.repo {
+  background: url('/images/5-4-1365x768.png') no-repeat;
+  background-size: cover;
+  min-height: 545px;
+  padding: 0 50px;
+}
+/* 공통 메인 패치 요약 */
+.patche-summary {
+  background: url('/images/14-1365x768.png') no-repeat;
+  background-size: cover;
+  min-height: 545px;
+  padding: 0 50px;
+}
+/* 공통 상세 패치 노트 */
+.console-pc {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.patch-notes {
+  height: auto;
+}
+.notes__heading {
+  text-align: center;
+}
+.console__heading, .pc__heading {
+  margin: 70px 20px 0 20px;
+  font-size: 32px;
+}
+.console__explain, .pc__explain {
+  font-size: 14px;
+  color: #707070;
+  margin: 0 20px;
+}
+.btn--long {
+  width: 100%;
+  height: 55px;
+  font-size: 24px;
+}
+.console__btn {
+  margin-top: 25px;
+}
+.pc__btn {
+  margin-top: 40px;
+}
+.more__btn {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
+/* 공통 푸터 */
+.footer {
+  background-color: #000;
+  color: #707070;
+  padding: 0 40px;
+  width: 100%;
+}
+.official__link {
+  border-bottom: 1px solid #707070;
+}
+.official-link__item {
+  display: inline-block;
+  padding: 35px 10px;
+
+}
+.footer-wrap {
+  margin-top: 35px;
+  width: 50%;
+  
+}
+.footer__logo {
+  width: 75px;
+  height: 70px;
+  margin-right: 20px;
+  float: left;
+}
+.footer-info {
+  float: left;
+}
+.footer-address {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.license-link__item {
+  display: inline-block;
+}
+.footer-warning {
+  width: 50%;
+  float: right;
+}

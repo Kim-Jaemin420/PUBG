@@ -32,3 +32,7 @@ fieldset {
 figure {
   margin: 0;
 }
+/* p태그 초기화 */
+p {
+  margin: 0;
+}
