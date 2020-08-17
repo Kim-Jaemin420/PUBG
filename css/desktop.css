@@ -98,8 +98,7 @@
   height: auto;
   float: left;
   background-color: #fff;
-  margin-top: 25px;
-  margin-left: 25px;
+  
 }
 .pc-patch {
   /* width: 100%; */
@@ -107,13 +106,12 @@
   height: auto;
   float: left;
   background-color: #fff;
-  margin-top: 25px;
-  margin-left: 25px;
+  /* margin-top: 25px;
+  margin-left: 25px; */
 }
 .more__btn {
   
   margin: 20px 0;
-
-  transform: translateX(-50%);
+  text-align: center;
   
 }

@@ -139,8 +139,9 @@ svg, img {
 .console-pc {
   max-width: 1280px;
   width: 100%;
+  height: auto;
   margin: 0 auto;
-  padding: 0 25px;
+  /* padding: 0 25px; */
 }
 .patch-notes {
   height: auto;
@@ -148,10 +149,25 @@ svg, img {
 .notes__heading {
   text-align: center;
 }
+.console-patch {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.section-wrap {
+  width: 100%;
+}
+.pc-patch {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
 .console__heading, .pc__heading {
   margin: 70px 20px 0 20px;
   font-size: 32px;
 }
+/* .console-patch > img, .pc-patch > img {
+  width: 100%;
+} */
 .console__explain, .pc__explain {
   font-size: 14px;
   color: #707070;
@@ -168,16 +184,20 @@ svg, img {
 .pc__btn {
   margin-top: 40px;
 }
+.btn-wrap {
+  text-align: center;
+}
 .more__btn {
   width: 200px;
   height: 50px;
   font-size: 24px;
 }
+
 /* 공통 푸터 */
 .footer {
   background-color: #000;
   color: #707070;
-  padding: 0 40px;
+  padding: 0 40px 50px 40px;
   width: 100%;
 }
 .official__link {
