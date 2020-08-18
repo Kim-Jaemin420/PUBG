@@ -145,29 +145,36 @@ svg, img {
 }
 .patch-notes {
   height: auto;
+  background: url('/images/patch-section-bg-4b4bd9fba7.jpg') repeat  0 0;
+  background-size: cover;
+  padding: 85px 25px 25px 25px;
+  width: 100%;
 }
 .notes__heading {
   text-align: center;
 }
+
 .console-patch {
   margin-top: 25px;
   margin-left: 25px;
-}
-.section-wrap {
-  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  width: 46%;
 }
 .pc-patch {
   margin-top: 25px;
   margin-left: 25px;
+  display: inline-block;
+  background-color: #fff;
+  width: 46%;
 }
-
 .console__heading, .pc__heading {
   margin: 70px 20px 0 20px;
   font-size: 32px;
 }
-/* .console-patch > img, .pc-patch > img {
+.console-patch > img, .pc-patch > img {
   width: 100%;
-} */
+}
 .console__explain, .pc__explain {
   font-size: 14px;
   color: #707070;
@@ -186,11 +193,13 @@ svg, img {
 }
 .btn-wrap {
   text-align: center;
+  margin: 20px 0;
 }
 .more__btn {
   width: 200px;
   height: 50px;
   font-size: 24px;
+
 }
 
 /* 공통 푸터 */

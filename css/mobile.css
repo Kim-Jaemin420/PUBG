@@ -73,7 +73,16 @@ right: 60px;
 }
 .console-patch {
   width: 100%;
+  margin: 0 20px;
 }
 .pc-patch {
+  width: 100%;
+  margin: 10px 20px;
+  
+}
+.section-wrap {
+  margin: 0 20px;
+}
+.console-patch img, .pc-patch img {
   width: 100%;
 }

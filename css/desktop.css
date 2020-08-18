@@ -85,33 +85,19 @@
 }
 /* 데스크탑 상세 패치 노트 (console, pc)*/
 
-.patch-notes {
-  background: url('/images/patch-section-bg-4b4bd9fba7.jpg') repeat  0 0;
-  background-size: cover;
-  padding-top: 85px;
-  position: relative;
-  width: 100%;
-}
+
 .console-patch {
   /* width: 100%; */
   max-width: 600px;
   height: auto;
-  float: left;
-  background-color: #fff;
+ 
   
 }
 .pc-patch {
   /* width: 100%; */
   max-width: 600px;
   height: auto;
-  float: left;
-  background-color: #fff;
+
   /* margin-top: 25px;
   margin-left: 25px; */
-}
-.more__btn {
-  
-  margin: 20px 0;
-  text-align: center;
-  
 }
