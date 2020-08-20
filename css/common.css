@@ -57,6 +57,9 @@ svg, img {
   max-width: 100%;
   height: auto;
 }
+.hover--white:hover {
+  color: #fff;
+}
 /* 버튼 모듈화 */
 [class$="__btn"] {
   width: 200px;
@@ -101,6 +104,10 @@ svg, img {
   color: #adadad;
   font-size: 20px;
   height: 80px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 .side-menu__link {
   float: right;
