@@ -35,9 +35,7 @@
   line-height: 80px;
 }
 .side-menu__item {
-  font-size: 20px;
   line-height: 80px;
-  padding: 0 10px;
 }
 [class$="__link"] {
   vertical-align: top;
@@ -63,7 +61,6 @@
 .repo {
   width: 50%;
   float: right;
-  
 }
 .repo__heading {
   margin: 25% 0 60px 0;
@@ -84,17 +81,10 @@
 
 
 .console-patch {
-  /* width: 100%; */
   max-width: 600px;
   height: auto;
- 
-  
 }
 .pc-patch {
-  /* width: 100%; */
   max-width: 600px;
   height: auto;
-
-  /* margin-top: 25px;
-  margin-left: 25px; */
 }

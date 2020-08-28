@@ -68,6 +68,9 @@ svg, img {
   color: #fff;
   font-size: 24px;
 }
+button {
+  cursor: pointer;
+}
 /* heading 모듈화 */
 .heading-ft {
   font-size: 64px;
@@ -109,11 +112,13 @@ svg, img {
   right: 0;
   z-index: 10;
 }
+
 .side-menu__link {
   float: right;
 }
 .side-menu__item {
   display: inline-block;
+  padding: 0 10px;
   font-size: 20px;
   padding: 0 10px;
 }
@@ -165,7 +170,6 @@ svg, img {
 .notes__heading {
   text-align: center;
 }
-
 .console-patch {
   margin-top: 25px;
   margin-left: 25px;
@@ -188,7 +192,7 @@ svg, img {
   width: 100%;
 }
 .console__explain, .pc__explain {
-  font-size: 14px;
+  font-size: 20px;
   color: #707070;
   margin: 0 20px;
 }
